@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kopi Senja — Kedai Kopi di Kepanjin, Kota Sumenep</title>
+<meta name="description" content="Kopi Senja adalah kedai kopi di Kepanjin, Kecamatan Kota Sumenep, Kabupaten Sumenep. Specialty coffee dari biji pilihan Nusantara, diseduh segar oleh barista. Pesan online dan konfirmasi lewat WhatsApp.">
+<meta property="og:title" content="Kopi Senja — Kedai Kopi di Kepanjin, Kota Sumenep">
+<meta property="og:description" content="Specialty coffee dari biji pilihan Nusantara, diseduh segar oleh barista. Pesan online, konfirmasi lewat WhatsApp.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="id_ID">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Lewati ke konten</a>
+<div class="announce">Kopi Senja — Kedai kopi di Kepanjin, Kota Sumenep <span></span></div>
+<header class="nav" id="nav">
+  <a class="logo" href="#home">KOPI SENJA</a>
+  <nav id="menuNav" aria-label="Navigasi utama">
+    <a href="#home">Beranda</a><a href="#story">Cerita Kami</a><a href="#menu">Menu</a><a href="#locations">Lokasi</a><a href="#contact">Kontak</a>
+  </nav>
+  <div class="nav-act">
+    <button class="cart-btn" id="openCart" aria-label="Buka keranjang"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 4h2l2.4 11h10l2-8H6.5"/><circle cx="9" cy="19.5" r="1.3"/><circle cx="17" cy="19.5" r="1.3"/></svg><b id="cartCount">0</b></button>
+    <a class="btn btn-sm" href="https://wa.me/6287841192932" target="_blank" rel="noopener">Pesan via WhatsApp</a>
+    <button class="burger" id="burger" aria-label="Buka menu" aria-expanded="false" aria-controls="menuNav"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero" id="home">
+  <div class="hero-text">
+    <h1>Temukan Momen Tenang di Setiap Cangkir.</h1>
+    <p>Specialty coffee dari biji pilihan, diseduh pelan oleh barista kami di kedai yang dibuat untuk duduk lebih lama.</p>
+    <div class="cta"><a class="btn" href="#menu">Jelajahi Menu</a><a class="btn btn-ghost" href="https://wa.me/6287841192932?text=Halo%20Kopi%20Senja%2C%20saya%20ingin%20bertanya%20dan%20memesan." target="_blank" rel="noopener">Pesan via WhatsApp</a></div>
+  </div>
+  <figure class="hero-img"><img id="heroImg" alt="Secangkir kopi di atas meja kayu" fetchpriority="high" width="900" height="1100"></figure>
+</section>
+
+<section class="story" id="story">
+  <figure><img data-src="photo-1442512595331-e89e73853f31" alt="Barista menyiapkan kopi di balik bar" loading="lazy" width="700" height="560"></figure>
+  <div>
+    <h2>Dari satu cangkir, untuk sore yang lebih tenang.</h2>
+    <p>Kopi Senja lahir dari ide sederhana: kopi yang baik tidak perlu rumit. Kami memilih biji dari petani Nusantara, menyangrai dengan profil yang menonjolkan manis alaminya, lalu menyeduhnya sesuai pesanan.</p>
+    <p>Filosofi pelayanan kami: ramah, tidak terburu-buru, dan jujur soal apa yang ada di cangkir Anda. Tanyakan apa saja kepada barista.</p>
+  </div>
+</section>
+
+<section class="menu" id="menu">
+  <div class="sec-head"><h2>Menu Andalan</h2><p>Diseduh setelah Anda memesan.</p></div>
+  <div class="tools">
+    <div class="filters" role="group" aria-label="Filter kategori"><button class="chip on" data-cat="All">Semua</button><button class="chip" data-cat="Coffee">Kopi</button><button class="chip" data-cat="Non-Coffee">Non-Kopi</button><button class="chip" data-cat="Food">Makanan</button></div>
+    <label class="search"><span class="sr">Cari menu</span><input type="search" id="search" placeholder="Cari menu..."></label>
+  </div>
+  <div class="grid" id="menuGrid" aria-live="polite"></div>
+</section>
+
+<section class="brew" id="brew">
+  <h2>Cara Seduh Kami</h2>
+  <div class="brew-list">
+    <article><img data-src="photo-1510707577719-ae7c14805e3a" alt="Espresso" loading="lazy" width="400" height="300"><h3>Espresso</h3><p>Tekanan tinggi, ekstraksi singkat. Pekat dan manis.</p></article>
+    <article><img data-src="photo-1447933601403-0c6688de566e" alt="Seduhan V60" loading="lazy" width="400" height="300"><h3>V60</h3><p>Pour-over berfilter kertas. Bersih, cerah, aromatik.</p></article>
+    <article><img data-src="photo-1521302080334-4bebac2763a6" alt="French Press" loading="lazy" width="400" height="300"><h3>French Press</h3><p>Perendaman penuh. Body tebal dan hangat.</p></article>
+    <article><img data-src="photo-1461023058943-07fcbe16d735" alt="Manual Brew" loading="lazy" width="400" height="300"><h3>Manual Brew</h3><p>Pilihan barista hari ini. Profil rasa berganti mengikuti biji.</p></article>
+  </div>
+</section>
+
+<section class="why" id="why">
+  <h2>Kenapa Kopi Senja</h2>
+  <ul>
+    <li><h3>Biji Kopi Pilihan</h3><p>Biji dipilih langsung oleh tim kami.</p></li>
+    <li><h3>Diseduh Segar</h3><p>Setiap cangkir diseduh setelah Anda memesan.</p></li>
+    <li><h3>Tempat Nyaman</h3><p>Tempat duduk untuk bekerja, mengobrol, atau diam.</p></li>
+    <li><h3>Barista Ramah</h3><p>Senang menjelaskan menu dan rekomendasi.</p></li>
+    <li><h3>Bahan Berkualitas</h3><p>Susu, cokelat, dan bahan pastry yang kami pilih dengan teliti.</p></li>
+  </ul>
+</section>
+
+<section class="gallery" id="gallery">
+  <h2>Galeri</h2>
+  <div class="gal-grid" id="galGrid"></div>
+</section>
+
+<section class="loc" id="locations">
+  <div>
+    <h2>Lokasi</h2>
+    <p id="addr"></p>
+    <p><a class="btn btn-sm" id="waLink" target="_blank" rel="noopener">Chat WhatsApp</a></p>
+  </div>
+  <iframe id="map" title="Peta lokasi Kopi Senja di Kepanjin, Kota Sumenep" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="faq" id="faq">
+  <h2>FAQ</h2>
+  <div id="faqList"></div>
+</section>
+
+<section class="final" id="contact">
+  <h2>Luangkan Sore Anda di Kopi Senja.</h2>
+  <a class="btn" id="visitBtn" href="#locations">Kunjungi Kopi Senja</a>
+</section>
+</main>
+
+<footer>
+  <div><a class="logo" href="#home">KOPI SENJA</a><p>Kedai kopi di Kepanjin, Kota Sumenep. Specialty coffee diseduh segar setiap hari.</p></div>
+  <div><h3>Tautan</h3><a href="#story">Cerita Kami</a><a href="#menu">Menu</a><a href="#gallery">Galeri</a><a href="#faq">FAQ</a></div>
+  <div><h3>Kontak</h3><p id="fAddr"></p><a id="fWa" href="https://wa.me/6287841192932" target="_blank" rel="noopener">WhatsApp 087841192932</a></div>
+  <p class="copy">&copy; <span id="yr"></span> Kopi Senja. Kedai kopi di Kepanjin, Kota Sumenep.</p>
+</footer>
+
+<a class="wa-float" id="waFloat" href="https://wa.me/6287841192932?text=Halo%20Kopi%20Senja%2C%20saya%20ingin%20bertanya%20dan%20memesan." target="_blank" rel="noopener" aria-label="Chat WhatsApp Kopi Senja"><svg viewBox="0 0 32 32" width="28" height="28" fill="#fff" aria-hidden="true"><path d="M19.11 17.2c-.28-.14-1.66-.82-1.92-.91-.26-.1-.44-.14-.63.14-.19.28-.72.91-.88 1.1-.16.18-.33.2-.61.07-.28-.14-1.18-.44-2.25-1.39-.83-.74-1.39-1.66-1.56-1.94-.16-.28-.02-.43.12-.57.13-.13.28-.33.42-.5.14-.17.19-.28.28-.47.1-.19.05-.36-.02-.5-.07-.14-.63-1.51-.86-2.07-.22-.54-.45-.47-.63-.48h-.54c-.19 0-.5.07-.76.36-.26.28-1 .98-1 2.39s1.03 2.77 1.17 2.96c.14.19 2.03 3.1 4.92 4.34.69.3 1.22.47 1.64.61.69.22 1.31.19 1.81.12.55-.08 1.66-.68 1.9-1.33.23-.66.23-1.22.16-1.34-.07-.12-.26-.19-.54-.33m-3.06 6.6h-.01c-1.83 0-3.63-.49-5.2-1.42l-.37-.22-3.86 1.01 1.03-3.77-.24-.39a9.15 9.15 0 0 1-1.4-4.9c0-5.06 4.12-9.17 9.19-9.17 2.46 0 4.77.96 6.51 2.7a9.13 9.13 0 0 1 2.7 6.5c0 5.06-4.13 9.17-9.3 9.17m7.9-18.13A11.2 11.2 0 0 0 16.05 0C7.28 0 .13 7.16.13 15.93c0 2.81.73 5.55 2.13 7.97L.05 32l8.33-2.19a15.9 15.9 0 0 0 7.67 1.95h.01c8.77 0 15.92-7.16 15.92-15.93 0-4.26-1.66-8.26-4.67-11.28"/></svg></a>
+<button class="totop" id="toTop" aria-label="Kembali ke atas" hidden>Top</button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" aria-label="Keranjang pesanan" aria-hidden="true">
+  <div class="drawer-h"><h2>Pesanan Anda <span id="drawerCount"></span></h2><button class="x" id="closeCart" aria-label="Tutup keranjang">&times;</button></div>
+  <div class="drawer-b" id="cartList"></div>
+  <div class="drawer-f"><div class="row"><span>Subtotal</span><b id="subtotal"></b></div><div class="row tot"><span>Total</span><b id="total"></b></div><button class="btn full" id="checkoutBtn">Checkout</button></div>
+</aside>
+
+<dialog id="custDlg"><form method="dialog" id="custForm"></form></dialog>
+
+<dialog id="coDlg">
+  <form id="coForm" novalidate>
+    <div class="drawer-h"><h2>Checkout</h2><button type="button" class="x" data-close="coDlg" aria-label="Tutup">&times;</button></div>
+    <label>Nama<input name="name" required autocomplete="name"><small class="err"></small></label>
+    <label>Nomor WhatsApp<input name="phone" inputmode="tel" required placeholder="08123456789" autocomplete="tel"><small class="err"></small></label>
+    <fieldset><legend>Tipe pesanan</legend><label class="inl"><input type="radio" name="type" value="Dine-in" checked> Dine-in</label><label class="inl"><input type="radio" name="type" value="Takeaway"> Takeaway</label></fieldset>
+    <label id="tableWrap">Nomor meja<input name="table" inputmode="numeric"><small class="err"></small></label>
+    <label>Metode pembayaran (preferensi)<select name="pay"><option>Cash</option><option>QRIS</option><option>Transfer</option></select></label>
+    <label>Catatan<textarea name="note" rows="2"></textarea></label>
+    <div class="sum" id="coSum"></div>
+    <p class="note">Pesanan baru dianggap diterima setelah admin mengonfirmasi lewat WhatsApp. Pembayaran tidak diproses di website ini.</p>
+    <button class="btn full" type="submit">Kirim via WhatsApp</button>
+  </form>
+</dialog>
+
+<dialog id="lbDlg" class="lb"><button class="x" data-close="lbDlg" aria-label="Tutup">&times;</button><button class="lbn prev" id="lbPrev" aria-label="Sebelumnya">&lsaquo;</button><img id="lbImg" alt=""><button class="lbn next" id="lbNext" aria-label="Berikutnya">&rsaquo;</button></dialog>
+
+<script src="js/config.js"></script>
+<script src="js/order.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
